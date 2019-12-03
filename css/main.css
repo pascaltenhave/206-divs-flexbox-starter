@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: Black;
   height: 100%;
 }
 
@@ -107,6 +107,13 @@ body {
   font-size: 1.25em;
   height: 100%;
   background: black;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .wrapper {
@@ -129,15 +136,23 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 22px;
-  border-style: dotted;
-  padding:2em;
-
-
 
 }
 
+main{
+  color:blue;
+  font-size: 3em;
+}
 
+header {
+  color: red;
+  font-size: 2em;
+}
 
+footer{
+  color:pink;
+  font-size: 1em;
+}
 
 /* ==========================================================================
    Helper classes
